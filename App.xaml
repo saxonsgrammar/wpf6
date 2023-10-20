@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:wpf3"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="C:\Users\Mcintosh\Downloads\wpf6\ExpressionDark.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
